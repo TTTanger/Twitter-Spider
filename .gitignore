@@ -1,0 +1,63 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略开发环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 忽略编译输出文件
+*.pyc
+__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.out
+*.log
+*.pid
+
+# 忽略 IDE 相关文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略数据库文件
+*.sqlite3
+*.db
+*.sql
+
+# 忽略构建工具的输出文件
+dist/
+build/
+target/
+node_modules/
+bower_components/
+
+# 忽略测试和覆盖率报告
+coverage/
+htmlcov/
+test-reports/
+reports/
+
+# 忽略文档输出文件
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# 忽略其他临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
