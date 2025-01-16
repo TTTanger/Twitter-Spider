@@ -5,4 +5,5 @@ I hope this spider can get more and more complete and useful!
 At this time, the comment cannot be crawled. In the future I will add this feature to this micro project.
 
 ## TO START  
-''' scrapy crawl twitter '''  
+1. Execute ```pip install -r 'requirements.txt' ```
+2. Execute ```scrapy crawl twitter```  
